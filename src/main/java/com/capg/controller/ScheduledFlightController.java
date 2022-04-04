@@ -6,7 +6,6 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,7 +21,6 @@ import com.capg.entity.ScheduledFlight;
 import com.capg.exceptions.RecordNotFoundException;
 import com.capg.exceptions.ScheduledFlightNotFoundException;
 import com.capg.service.AirportService;
-import com.capg.service.BookingService;
 import com.capg.service.FlightService;
 import com.capg.service.ScheduledFlightService;
 
