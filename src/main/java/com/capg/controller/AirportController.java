@@ -19,7 +19,6 @@ import com.capg.exceptions.RecordAlreadyPresentException;
 import com.capg.exceptions.RecordNotFoundException;
 import com.capg.service.AirportService;
 
-@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/airport")
 public class AirportController {

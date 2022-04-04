@@ -19,7 +19,6 @@ import com.capg.exceptions.RecordAlreadyPresentException;
 import com.capg.exceptions.RecordNotFoundException;
 import com.capg.service.FlightService;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/flight")
 public class FlightController {

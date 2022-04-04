@@ -27,7 +27,6 @@ import com.capg.service.FlightService;
 import com.capg.service.ScheduledFlightService;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/scheduledFlight")
 public class ScheduledFlightController {
 	@Autowired

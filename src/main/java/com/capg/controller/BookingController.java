@@ -29,7 +29,6 @@ import com.capg.service.FlightService;
 import com.capg.service.PassengerService;
 import com.capg.service.UserService;
 
-@CrossOrigin("http://localhost:4200")
 @ComponentScan(basePackages = "com.capg")
 @RestController
 @RequestMapping("/booking")
