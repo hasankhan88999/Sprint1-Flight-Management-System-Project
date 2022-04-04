@@ -74,7 +74,6 @@ public class ScheduledFlightController {
 			return new ResponseEntity("Flight Not Found", HttpStatus.BAD_REQUEST);
 		}
 		scheduledFlight.setSchedule(schedule);
-//		scheduledFlight.setAvailableSeats(scheduledFlight.getFlight().getSeatCapacity());
 		scheduledFlight.setAvailableSeats(scheduledFlight.getFlight().getSeatCapacity() - scheduleFlightService.getAvailableSeats(bookingIds, flightId));
 		try {
 			return new ResponseEntity<ScheduledFlight>(scheduleFlightService.addScheduledFlight(scheduledFlight),
